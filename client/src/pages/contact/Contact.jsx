@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './contact.css';
-import axios from "axios";
+// import axios from "axios";
 
 export default function Contact() {
 
@@ -10,13 +10,13 @@ export default function Contact() {
     
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setError(false);
-        try {
-            const res = await axios.put("/users/" + user._id, updatedUser);
-            setSuccess(true);
-          } catch (err) {
-            console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
-          }
+        // setError(false);
+        // try {
+        //     const res = await axios.put("/users/" + user._id, updatedUser);
+        //     setSuccess(true);
+        //   } catch (err) {
+        //     console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
+        //   }
         console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
     };
 
