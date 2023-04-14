@@ -16,14 +16,13 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarItem">
-        <span className="sidebarTitle">ABOUT ME</span>
+        <span className="sidebarTitle">HEY THERE</span>
         <img
-          src="https://i.pinimg.com/236x/1e/3f/58/1e3f587572a7a7b20bbf1828595a1786--holiday-party-themes-holiday-gift-guide.jpg"
+          src="https://th.bing.com/th/id/R.048ca5da01e8942704b8e258636a971f?rik=8IkgvOcdMNFvPA&pid=ImgRaw&r=0"
           alt=""
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui
-          necessitatibus nostrum illum reprehenderit.
+        Welcome to our blog! Join us as we share our experiences and ideas, explore new topics, and connect with others through our writing. Thanks for stopping by! Here, we strive to create a space that is both informative and entertaining, a place where we can share our passions and learn from others.
         </p>
       </div>
       <div className="sidebarItem">
