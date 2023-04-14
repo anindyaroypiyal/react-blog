@@ -10,7 +10,6 @@ export default function Contact() {
     
     const handleSubmit = async (e) => {
         e.preventDefault();
-        // setError(false);
         // try {
         //     const res = await axios.put("/users/" + user._id, updatedUser);
         //     setSuccess(true);
