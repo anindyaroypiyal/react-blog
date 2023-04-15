@@ -4,8 +4,8 @@ export default function Header() {
   return (
     <div className="header">
       <div className="headerTitles">
-        <span className="headerTitleSm">React & Node</span>
-        <span className="headerTitleLg">BLOG</span>
+        <span className="headerTitleSm">A journey through words</span>
+        <span className="headerTitleLg">ScribeSpace</span>
       </div>
       <img
         className="headerImg"
